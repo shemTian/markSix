@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 只需配置好 log.dir 和 projectname 属性-->
 <configuration debug="false">
+	<property name="projectname" value="marksix" />
 	<property name="log.dir" value="/home/tsq/log/" />
-	<property name="projectname" value="search-every-thing" />
 	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
 		<target>System.out</target>
 		<encoder charset="UTF-8">
@@ -57,11 +57,6 @@
 		<level value="INFO" />
 		<appender-ref ref="errorAppender" />
 		<appender-ref ref="infoAppender" />	
-	</logger>
-	<logger name="com.zhongan">
-		<level value="INFO" />
-		<appender-ref ref="errorAppender" />
-		<appender-ref ref="infoAppender" />		
 	</logger>
 
 	<logger name="com.netflix">

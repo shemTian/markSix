@@ -25,5 +25,6 @@
 /.nb-gradle/
 
 ### webpack ###
-/src/main/resources/node_modules
-/src/main/resources/test.e2e
+/src/main/resources/static/node_modules
+/src/main/resources/static/test.e2e
+/src/main/resources/static/dist

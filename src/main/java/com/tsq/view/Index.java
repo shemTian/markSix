@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  */
 @Controller
 public class Index {
-    @GetMapping({"/","index","index.html","index.htm"})
+    @GetMapping({"/","index","index.ftl","index.htm"})
     public String index() {
         return "index";
     }

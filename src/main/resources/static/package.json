@@ -11,7 +11,7 @@
     "test": "npm run e2e",
     "build": "node build/build.js && yarn run copy-index && yarn run copy-static",
     "copy-index": "xcopy \".\\dist\\index.html\" \"..\\templates\\index.ftl\"  /Y",
-    "copy-static": "xcopy \".\\dist\\static\" \"..\\..\\webapp\\static\" /S /Y"
+    "copy-static": "xcopy \".\\dist\\static\" \"..\\META-INF\\resources\\static\" /S /Y"
   },
   "dependencies": {
     "vue": "^2.5.2",

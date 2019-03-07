@@ -14,6 +14,11 @@
     "copy-static": "xcopy \".\\dist\\static\" \"..\\META-INF\\resources\\static\" /S /Y"
   },
   "dependencies": {
+    "element-ui": "^2.6.1",
+    "growl": "1.10.0",
+    "https-proxy-agent": "2.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

@@ -1,17 +1,21 @@
 <template>
-  <div>
+  <el-container direction="vertical">
     <Header></Header>
-    <div id="app">
-      <img src="./assets/logo.png">
-      <router-view/>
-    </div>
-  </div>
+    <el-main>
+      <div id="app">
+        <img src="./assets/logo.png">
+        <router-view/>
+      </div>
+    </el-main>
+    <Footer></Footer>
+  </el-container>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue"
 export default {
-  components: { Header },
+  components: { Header,Footer },
   name: "App"
 };
 </script>

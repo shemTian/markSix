@@ -1,26 +1,38 @@
 .el-row {
   margin-bottom: 20px;
-}
-.el-col {
-  border-radius: 4px;
   &:last-child {
     margin-bottom: 0;
-  }
-}
-.bg-purple-dark {
-  background: #99a9bf;
-}
-.bg-purple {
-  background: #d3dce6;
-}
-.bg-purple-light {
-  background: #e5e9f2;
-}
-.grid-content {
+  };
+  background-color: #909399;
   border-radius: 4px;
-  min-height: 36px;
 }
-.row-bg {
-  padding: 10px 0;
-  background-color: #f9fafc;
+.el-header-menu{
+  border-radius: 4px;
+  background-color: #909399;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.headerNav{
+  // position: fixed;
+  //   top: 30px;
+    width: -webkit-fill-available;
+}
+.remark{
+  height:20px;
+  margin-bottom:1px;
+  // border-radius: 0px;
+  color: aliceblue;
+  text-align: right;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #99a9bf
+}
+.logo-min {
+  display: block;
+  height: 60px;
+  background-image: url('../assets/logo40_40.png');
+  background-repeat: no-repeat;
+  background-position: 10px;
+  // 背景色不延伸，防止影响边框
+  background-clip: padding-box;
+  // 透明边框
+  border-bottom: 1px solid hsla(0,0%,100%,.5);
 }
